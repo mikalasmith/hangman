@@ -1,0 +1,53 @@
+header {
+    border: 5px dotted gold;
+    text-align: center;
+    margin: 10px auto;
+    height: 150px;
+    width: 80%;
+    padding-bottom: 55px;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+}
+
+#subtitle {
+    font-family: 'Fascinate Inline', cursive;
+    text-align: right;
+    font-size: 40px;
+    width: 200px;
+    height: 90px;
+    background-color: none;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(330deg);
+    
+}
+
+.underscore {
+    border: 5px dotted gold;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px auto;
+    height: 150px;
+    width: 80%;
+}
+
+.rightGuess {
+    border: 5px dotted gold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+    height: 150px;
+    width: 80%;
+}
+
+.wrongGuess {
+    border: 5px dotted gold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+    height: 150px;
+    width: 80%;
+}
