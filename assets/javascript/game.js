@@ -8,24 +8,28 @@ var words =[
     "starwars"
 ];
 
-// Computer selects a word from the array at random after a user's turn ends.
+//player can select any key to start game
+
+// Computer selects a word from the array at random.
 var randomWord = [Math.floor(Math.random() * words.length)];
-for (i=0; i < words.length; i++) {
-
-}
-
 // console.log (Math.floor(Math.random() * words.length));
 // console.log(randomWord);
+
 
 // Computer displays underscores based on length of word that was chosen.
 var underScore = 
 
-// User guesses a letter and computer displays that guess as right or wrong
+// User guesses a letter
 var userGuess =
 
 // Check if guess is right
 
-// if right, push to right array
+// if right, push to display in place of an underscore
 
-// if wrong, push to wrong array
+// if wrong, push to display in letters already guessed and subtract one from remaining guesses
 
+//computer resets the game after user runs out of guesses or once they have guessed the word
+for (i=0; i < words.length; i++) {
+    if 
+
+}
