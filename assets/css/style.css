@@ -4,7 +4,7 @@ header {
     margin: 10px auto;
     height: 150px;
     width: 80%;
-    padding-bottom: 55px;
+    padding-bottom: 70px;
 }
 
 #title {
@@ -25,6 +25,13 @@ header {
     
 }
 
+#begin {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+
+
 .underscore {
     border: 5px dotted gold;
     font-size: 60px;
@@ -32,22 +39,27 @@ header {
     margin: 10px auto;
     height: 150px;
     width: 80%;
+    padding-top: 20px;
 }
 
-.rightGuess {
+.guessRemain {
+    font-family: 'Lobster', cursive;
     border: 5px dotted gold;
     font-size: 20px;
     text-align: center;
     margin: 10px auto;
     height: 150px;
     width: 80%;
+    padding-top: 20px;
 }
 
-.wrongGuess {
+.alreadyGuess {
+    font-family: 'Lobster', cursive;
     border: 5px dotted gold;
     font-size: 20px;
     text-align: center;
     margin: 10px auto;
     height: 150px;
     width: 80%;
+    padding-top: 20px;
 }

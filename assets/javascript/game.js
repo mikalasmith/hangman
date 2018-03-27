@@ -9,6 +9,12 @@ var words =[
 ];
 
 //player can select any key to start game
+var userText = document.getElementById("user-text");
+document.onkeyup = function(event) {
+    userText.textContent = event.key;
+  };
+
+
 
 // Computer selects a word from the array at random.
 var randomWord = [Math.floor(Math.random() * words.length)];
